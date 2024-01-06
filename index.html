@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stone Paper Scissors</title>
+</head>
+<body>
+    <div class="maincon">
+        <div class="con">
+        <div class="computer">
+            <div class="rock"></div>
+            <div class="paper"></div>
+            <div class="scissors"></div>
+        </div>
+        <div class="info">
+        <div class="pla2" id="pla2"></div>
+        <div class="vs" id="vs"></div>
+        <div class="com2" id="com2"></div>
+        </div>
+        <div class="player">
+            <div class="rock" onclick="run1();run();"></div>
+            <div class="paper" onclick="run2();run();"></div>
+            <div class="scissors" onclick="run3();run();"></div>
+        </div>
+        </div>
+        <div class="info2">
+            <div>The score is:</div>
+            <div style="margin-top:8px;"id="ipla">Player:0</div>
+            <div style="margin-top:8px;" id="icom">Computer:0</div>
+            <div id="win" style="margin-top:8px;"></div>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

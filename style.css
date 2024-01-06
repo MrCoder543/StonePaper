@@ -1,0 +1,93 @@
+.maincon{
+    
+    height:725px;
+    max-width:900px;
+    margin:auto;
+    display:flex;
+}
+.computer{
+    width:100%;
+    height:220px;
+    background:red;
+    opacity: 0.9;
+    display:flex;
+}
+.rock{
+    width:210px;
+    height:200px;
+    background: url(rock.jpg);
+    background-size:210px 200px;
+    margin-top:auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+.paper{
+    width:210px;
+    height:200px;
+    background: url(paper.jpg);
+    background-size:210px 200px;
+    margin-top:auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+.scissors{
+    width:210px;
+    height:200px;
+    background: url(scissors.jpg);
+    background-size:210px 200px;
+    margin-top:auto;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+.player{
+    width:100%;
+    height:220px;
+    background:blue;
+    opacity: 0.9;
+    display:flex;
+}
+.info{
+    display:flex;
+    height:235px;
+    width:100%;
+    padding:25px;
+}
+.pla2{
+    height:235px;
+    width:200px;
+    opacity:0;
+    transition:0.8s;
+}
+.vs{
+    height:150px;
+    width:125px;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:57.5px;
+    opacity:0;
+    transition: 0.2s;
+}
+.com2{
+    height:235px;
+    width:200px;
+    margin-right:0;
+    margin-left:57.5px;
+    opacity:0;
+    transition:0.8s;
+}
+.info2{
+    font-size:30px;
+    font-family:sans-serif;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+#reset{
+    height: 30px;
+    font-size: 17px;
+    border-radius: 7px;
+    cursor: pointer;
+}
